@@ -19,4 +19,24 @@ const lastVal = myStack.peek();
 console.log("the last value in the storage", lastVal);
 console.log("Storage after pop", myStack._storage);
 
+import { Queue } from "./Queue.mjs";
+
+const myQ = new Queue();
+
+myQ.enqueue("Ali");
+console.log("Q", myQ);
+
+myQ.enqueue("Mhmd");
+const oldestQVal = myQ.peek();
+console.log("oldestQVal", oldestQVal);
+
+myQ.dequeue();
+console.log("Q", myQ);
+
+
+
+
+
+
+
 

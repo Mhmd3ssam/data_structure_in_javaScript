@@ -1,0 +1,13 @@
+{
+  "name": "data_structure_in_js",
+  "version": "1.0.0",
+  "description": "implement data structure in js",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Mhmd Essam",
+  "license": "ISC"
+}
